@@ -9,11 +9,11 @@ registerApplication({
   activeWhen: ["/"],
 });
 
-// registerApplication({
-//   name: "@mfe/navbar",
-//   app: () => System.import("@mfe/navbar"),
-//   activeWhen: ["/"]
-// });
+registerApplication({
+  name: "@mfe/navbar",
+  app: () => System.import("@mfe/navbar"),
+  activeWhen: ["/navbar"],
+});
 
 start({
   urlRerouteOnly: true,
