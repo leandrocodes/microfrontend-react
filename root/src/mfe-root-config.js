@@ -3,7 +3,7 @@ import { registerApplication, start } from "single-spa";
 registerApplication({
   name: "@mfe/navbar",
   app: () => System.import("@mfe/navbar"),
-  activeWhen: ["/navbar"],
+  activeWhen: () => true,
 });
 
 registerApplication({
