@@ -1,3 +1,3 @@
 # Micro frontend built with single-spa
 
-## This is a studies repository!
+## This is a study case repository!
